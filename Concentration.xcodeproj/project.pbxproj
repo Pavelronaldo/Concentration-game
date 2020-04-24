@@ -16,6 +16,7 @@
 		4ABD60292441D2FC00090BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABD60272441D2FC00090BA4 /* LaunchScreen.storyboard */; };
 		4ABD6032244339E100090BA4 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD6031244339E100090BA4 /* Concentration.swift */; };
 		4ABD603424433AC900090BA4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD603324433AC900090BA4 /* Card.swift */; };
+		4AECD7112451AA3F004F9490 /* VCLLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AECD7102451AA3E004F9490 /* VCLLoggingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4ABD602A2441D2FC00090BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ABD6031244339E100090BA4 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		4ABD603324433AC900090BA4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4AECD7102451AA3E004F9490 /* VCLLoggingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLLoggingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +66,10 @@
 			children = (
 				4A2A81CD244ED7930092C031 /* ConcentrationThemeChooserViewController.swift */,
 				4ABD601E2441D2FA00090BA4 /* SceneDelegate.swift */,
-				4ABD60202441D2FA00090BA4 /* ConcentrationViewController.swift */,
 				4ABD60222441D2FA00090BA4 /* Main.storyboard */,
+				4ABD60202441D2FA00090BA4 /* ConcentrationViewController.swift */,
 				4ABD6031244339E100090BA4 /* Concentration.swift */,
+				4AECD7102451AA3E004F9490 /* VCLLoggingViewController.swift */,
 				4ABD603324433AC900090BA4 /* Card.swift */,
 				4ABD60302441D65A00090BA4 /* Supporting Files */,
 				4ABD602A2441D2FC00090BA4 /* Info.plist */,
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AECD7112451AA3F004F9490 /* VCLLoggingViewController.swift in Sources */,
 				4ABD60212441D2FA00090BA4 /* ConcentrationViewController.swift in Sources */,
 				4ABD6032244339E100090BA4 /* Concentration.swift in Sources */,
 				4ABD603424433AC900090BA4 /* Card.swift in Sources */,
